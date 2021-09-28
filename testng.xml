@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.facebook.utilities.Reporters"/>
+</listeners>
+  <test  name="Test">
+  
+  <parameter name="browse" value="chrome"/>
+    <classes>
+    <class name="com.facebook.testcases.TC_logDDT_002"/>
+      <class name="com.facebook.testcases.TC_001"/>
+      
+    </classes>
+  </test> 
+</suite> 
+	
