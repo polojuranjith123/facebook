@@ -18,6 +18,7 @@ import com.facebook.pages.Loginpage;
 		logger.info("entered password");
 	     lp.clickBotton();
 	     logger.info("logging");
+	     System.out.println("ranjith");
 	     
 	     captureScreenshot(driver ,"TC_001");
 	     Assert.assertTrue(true);	     /* if(driver.switchTo().alert().equals(true)) {
